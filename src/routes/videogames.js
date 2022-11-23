@@ -21,7 +21,7 @@ router.get('/', async (req, res) => {
             
     
         } catch(e) {
-            console.log(e);
+          
             return res.status(500).send('Something went wrong');
         }
     });

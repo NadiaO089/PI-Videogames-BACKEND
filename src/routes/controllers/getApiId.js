@@ -22,7 +22,7 @@ const getVideogame = async (id) => {
                 name: videogame.data.name,
                 background_image: videogame.data.background_image,
                 genres: genres,
-                description: videogame.data.description,
+                description: videogame.data.description_raw,
                 released: videogame.data.released,
                 rating: videogame.data.rating,
                 platforms: platforms
